@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Qu?z </title>
+  <meta charset="utf-8">
+  <link rel="icon" href="../main/main-img/quiz.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../main/style.css">
+  <link rel="stylesheet" href="./homepage.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/e908f71e67.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="#"><img class="logo" src="../main/main-img/logo.png" alt="logo du site"
+          height="55px" width="200px" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item"> <a class="nav-link" href="#">Catégories</a> </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img class="user" src="../main/main-img/user1.png" alt="icone d'ultilisateur" height="20px"
+                width="20px" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"><img class="user" src="../main/main-img/users.png"
+                    alt="icone d'inscription" height="20px" width="20px" />
+                  <p>S'incrire</p>
+                </a></li>
+              <li>
+                <!-- <hr class="dropdown-divider"> -->
+              </li>
+              <li><a class="dropdown-item" href="#"><img class="user" src="../main/main-img/circle-user-solid.png"
+                    alt="icone de connexion" height="25px" width="25px" />
+                  <p>Se connecter</p>
+                </a></li>
+              <li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img class="france" src="../main/main-img/fr.png" alt="drapeaux de la France" height="25px"
+                width="25px" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"><img class="france" src="../main/main-img/us.png"
+                    alt="drapeaux des USA" height="20px" width="20px" />
+                  <p>English</p>
+                </a></li>
+              <li>
+                <!-- <hr class="dropdown-divider"> -->
+              </li>
+              <li><a class="dropdown-item" href="#"><img class="france" src="../main/main-img/es.png"
+                    alt="drapeaux de l'Espagne" height="20px" width="20px" />
+                  <p>Espanol</p>
+                </a></li>
+              <li>
+            </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header>
+
+<div class="best">
+    <div class="rainbow">
+      Catégories les plus populaires
+    </div>
+  </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="../basket/basket.html"><img src="./img/basket.jpg" class="d-block w-100" height="350px" alt="panier de basket"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="bloc">
+              <h5>Basket-ball</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../horror/horror.html"><img src="./img/halloween.jpg" class="d-block w-100" height="350px" alt="image du jeu tétris"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="bloc">
+              <h5>jeux rétro</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../action/action.html"><img src="./img/god-of-war.jpg" class="d-block w-100" height="350px"
+              alt="affiche du film Halloween"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="bloc">
+              <h5>Films d'horreur</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </header>
+
+
+  <main>
+
+    <button class="button">
+      Sport
+      <div class="button__horizontal"></div>
+      <div class="button__vertical"></div>
+    </button>
+
+
+
+
+    <section>
+
+      <div class="box">
+        <div class="snip1113 white">
+          <a href="../football/football.html"><img src="../homepage/img/foot.jpg" width="500px" height="270px" alt="image de football" />
+            <div class="category">
+              <h3> <span>Football</span></h3>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="snip1113 orange">
+        <a href="../basket/basket.html"><img src="../homepage/img/basket.jpg" width="500px" height="270px" alt="panier de basket" />
+          <div class="category">
+            <h3> <span>Basket-ball</span></h3>
+
+          </div>
+        </a>
+      </div>
+      <div class="snip1113 white">
+        <a href="../olympic games/olympic-games.html"><img src="../homepage/img/tennis.jpg" width="500px" height="270px" alt="image de tennis" />
+          <div class="category">
+            <h3>Jeux <span>Olympique</span></h3>
+
+          </div>
+        </a>
+      </div>
+
+
+
+    </section>
+
+    <hr>
+
+    <button class="button">
+      Films
+      <div class="button__horizontal"></div>
+      <div class="button__vertical"></div>
+    </button>
+
+
+    <section>
+
+
+
+      <div class="box">
+        <div class="snip1113 orange">
+          <a href="../horror/horror.html"><img src="../homepage/img/halloween.jpg" width="500px" height="270px"
+              alt="affiche du film Halloween" />
+            <div class="category">
+              <h3> Films <span>D'horreur</span></h3>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="snip1113 white">
+        <a href="../action/action.html"><img src="../homepage/img/white-house-down.jpg" width="500px" height="270px"
+            alt="affiche du film whithe house down" />
+          <div class="category">
+            <h3> Films <span>D'action</span></h3>
+
+          </div>
+        </a>
+      </div>
+      <div class="snip1113 orange">
+        <a href="../sf/sf.html"><img src="../homepage/img/star-wars.jpg" width="500px" height="270px"
+            alt="affiche du film Star-Wars" />
+          <div class="category">
+            <h3> Films <span>SF</span></h3>
+
+          </div>
+        </a>
+      </div>
+
+    </section>
+
+    <hr>
+
+
+    <button class="button">
+      Jeux vidéo
+      <div class="button__horizontal"></div>
+      <div class="button__vertical"></div>
+    </button>
+
+
+    <section>
+
+
+
+      <div class="box">
+        <div class="snip1113 white">
+          <a href="#"><img src="../homepage/img/tetris.jpg" width="500px" height="270px" alt="image du jeu Tétris" />
+            <div class="category">
+              <h3> Jeux <span>Rétro</span></h3>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="snip1113 orange">
+        <a href="../action games/action-games.html"><img src="../homepage/img/god-of-war.jpg" width="500px" height="270px"
+            alt="pochette du jeu God of War" />
+          <div class="category">
+            <h3> Jeux <span>D'action</span></h3>
+
+          </div>
+        </a>
+      </div>
+      <div class="snip1113 white">
+        <a href="#"><img src="../Test/homepage/img/tennis.jpg" width="500px" height="270px" alt="pr-sample9" />
+          <div class="category">
+            <h3> Films <span>Tennis</span></h3>
+
+          </div>
+        </a>
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+
+
+  <footer class="container-fluid bg-grey py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="logo-part">
+                <img class="sports" src="../main/main-img/logo-tache-white.png" alt="Logo Marv?n" height="170px"
+                  width="280px" />
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-4 px-2">
+              <h6> Help us</h6>
+              <div class="row ">
+                <div class="col-md-12">
+                  <ul>
+                    <li> <a href="#"> Home</a> </li>
+                    <li> <a href="#"> About</a> </li>
+                    <li> <a href="#"> Service</a> </li>
+                    <!-- <li> <a href="#"> Team</a> </li>
+                            <li> <a href="#"> Help</a> </li>
+                            <li> <a href="#"> Contact</a> </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 px-2">
+              <h6> Contact</h6>
+              <div class="row ">
+                <div class="col-md-12">
+                  <ul>
+                    <li> <a href="#"> Nous contacter</a> </li>
+                    <li> <a href="#"> Proposer des catégories</a> </li>
+                    <!-- <li> <a href="#"> Service</a> </li>
+                            <li> <a href="#"> Team</a> </li>
+                            <li> <a href="#"> Help</a> </li>
+                            <li> <a href="#"> Contact</a> </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h6> Newsletter</h6>
+              <div class="social">
+                <a href="twitter.com" class="fa fa-instagram"></a>
+                <a href="instagram.com" class="fa fa-twitter"></a>
+              </div>
+              <form class="form-footer my-3">
+                <input type="text" placeholder="search here...." name="search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <p> <img src="../fontawesome-free-6.0.0-desktop/svgs/regular/copyright.svg" height="15px" width="15px"> 2022
+      Marvin. All rights reserved.</p>
+  </footer>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+</body>
+
+</html>

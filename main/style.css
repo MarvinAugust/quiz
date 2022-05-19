@@ -1,0 +1,277 @@
+@font-face {
+    font-family: "bodoni";
+    src: url(../main/fonts/Subway-Black.ttf)
+}
+
+#navbarSupportedContent {
+    font-size: 18px;
+    /* margin-right: 100px; */
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orangered;
+}
+
+.navbar-nav>li>a {
+    margin-right: 20px;
+    color: white;
+    /* background-color: orangered; */
+    border-radius: 10px;
+    border-style: none;
+    font-family: "bodoni";
+    font-size: 18px;
+}
+
+.navbar-nav{
+    background-color: orangered;
+    border-radius: 10px;
+    border-style: none;
+}
+
+nav {
+    background: linear-gradient(160deg, white 60%, orangered 60%);
+    border-bottom: 3px solid orangered;
+}
+
+
+nav ul li a .france {
+    border-style: outset;
+    border-color: white;
+    border-radius: 50%;
+}
+
+nav ul{
+   align-items: center;
+   padding: 0 0 0 0px;
+}
+
+nav ul li a:hover{
+    background: orange;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.navbar-nav>li>a:hover {
+    color: white;
+}
+
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: orangered;  
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.navbar-nav > li > .dropdown-menu li a:hover { 
+    background-color: orange;
+}
+
+.navbar-nav>li>a:after {
+    color: white;
+}
+
+
+div .collapse {
+    padding-right: 100px;
+}
+
+.navbar-nav > li > .dropdown-menu li a {
+    display: flex;
+    padding-top: 25px;
+}
+
+.navbar-nav > li > .dropdown-menu p {
+    color: white;
+    padding-left: 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-top-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+    background-size: cover;
+    background-image: url(./main-img/background2.png) !important;
+
+}
+
+
+
+.logo-footer {
+  margin-bottom: 40px;
+}
+
+footer .container {
+      color: orangered;
+}
+
+footer p, a {
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+color: gainsboro;
+padding-top: 20px;
+}
+
+footer .social {
+text-align: center;}
+
+
+footer h6 {
+  font-family: "bodoni";
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 20px;
+}
+
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: orangered;
+  width: 50%;
+  height: 1px;
+  left: 0;
+  bottom: -20px;
+  margin-left: 20px;
+}
+
+   .btn-footer {
+               color: rgb(128, 128, 128);
+            
+              text-decoration: none;
+              border: 1px solid;
+              border-radius: 43px;
+              font-size: 13px;
+              padding: 7px 30px;
+              line-height: 47px;
+   }
+   .btn-footer:hover {
+              
+              text-decoration: none;
+             
+   }
+  .form-footer input[type="text"] {
+      border: none;
+  border-radius: 16px 16px 16px 16px;
+  outline: none;
+  padding-left: 10px;
+  border-style: solid;
+  border-color: black;
+  }
+
+  form {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.form-footer input[type="button"] {
+  border: none;
+  background:black;
+      margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 16px 16px 16px 16px;
+  padding: 2px 12px;
+  border-style: solid;
+  border-color: black;
+}
+  
+   footer ul li {
+  list-style: none;
+  display: block;
+}
+footer ul  {
+ padding-left: 0;
+}
+footer ul  li {
+text-decoration: none;
+text-decoration:none;
+text-align: center;
+padding-top: 5px;
+}
+
+footer ul  li a{
+  color: orangered;
+  font-size: 15px;
+  text-decoration: none;
+  text-decoration:none;
+}
+
+div.col-md-3 {
+  border-left-style: solid;
+}
+
+div .px-2 {
+  border-right-style: solid;
+  background-color: white;
+}
+
+h6 {
+  text-align: center;
+}
+
+li a:hover {
+  background-color: orangered;
+    color: white !important;
+    border-radius: 100px;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-style: solid;
+      border-color: white;
+  
+}
+
+.logo-part {
+  text-align: center;
+  }
+
+  footer .social a {
+      /* padding: 5px; */
+      border-style: outset;
+      border-radius: 50% ;
+      border-color: orangered;
+      color: white;
+      font-size: 15px;
+      padding: 10px 10px;
+      background-color: orangered;
+      text-decoration: none;
+  text-decoration:none;
+    }
+    
+    footer .social a:hover {
+    background-color: white;
+    }
+
+    .fa-instagram:hover {
+        color: rgba(138, 58, 185) !important;
+    }
+
+    .fa-twitter:hover {
+        color: rgba(0, 172, 238) !important ;
+    }
